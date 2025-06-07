@@ -53,7 +53,6 @@ export default class HomePage {
     lineAnim(".line-animation", ".line-animation");
     textAnim(".section-title > h1");
 
-    // await this.initialMap();
     await this.#presenter.initialGalleryAndMap();
   }
 

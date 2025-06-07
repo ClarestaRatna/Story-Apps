@@ -122,8 +122,6 @@ export default class StoryDetailPage {
   renderBookmarkButton() {
     const bookmarkButton = document.getElementById("bookmark-story-button");
 
-    // this.emptyBookmarkSection();
-
     document.querySelector(".story-item__bookmark-container").innerHTML =
       generateBookmarkButtonTemplate();
 
@@ -151,10 +149,6 @@ export default class StoryDetailPage {
   }
 
   renderUnbookmarkButton() {
-    const unbookmarkButton = document.getElementById("unbookmark-story-button");
-
-    // this.emptyBookmarkSection();
-
     document.querySelector(".story-item__bookmark-container").innerHTML =
       generateUnbookmarkButtonTemplate();
 

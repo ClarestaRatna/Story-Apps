@@ -1,5 +1,3 @@
-import { doc } from "prettier";
-import { ACCESS_TOKEN_KEY } from "../../config.js";
 import { storyMapper } from "../../data/api-mapper.js";
 
 export default class StoryDetailPresenter {

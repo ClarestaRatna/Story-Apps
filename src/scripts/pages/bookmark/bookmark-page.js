@@ -76,23 +76,4 @@ export default class BookmarkPage {
   hideStoriesListLoading() {
     document.getElementById("stories-list-loading-container").innerHTML = "";
   }
-
-  // populateBookmarkedStoriesListEmpty() {
-  //   document.getElementById("stories-list").innerHTML =
-  //     generateStoriesListEmptyTemplate();
-  // }
-
-  // populateBookmarkedStoriesError(message) {
-  //   document.getElementById("stories-list").innerHTML =
-  //     generateStoriesListErrorTemplate(message);
-  // }
-
-  // showStoriesListLoading() {
-  //   document.getElementById("stories-list-loading-container").innerHTML =
-  //     generateLoaderAbsoluteTemplate();
-  // }
-
-  // hideStoriesListLoading() {
-  //   document.getElementById("stories-list-loading-container").innerHTML = "";
-  // }
 }

@@ -20,8 +20,6 @@ import {
 } from "../utils/notification-helper.js";
 import Swal from "sweetalert2";
 
-import { generateStoryItemTemplate } from "../templates.js";
-
 export default class App {
   #content;
   #drawerButton;
@@ -162,7 +160,6 @@ export default class App {
     }
 
     if (!route || typeof route !== "function") {
-      // alert("Halaman tidak ditemukan. Silahkan ulangi kembali");
       location.hash = "/404";
       return;
     }
@@ -170,7 +167,6 @@ export default class App {
     const page = route();
 
     if (!page) {
-      // alert("Halaman tidak ditemukan. Silahkan ulangi kembali");
       location.hash = "/404";
       return;
     }

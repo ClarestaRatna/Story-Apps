@@ -1,5 +1,3 @@
-import Database from "../../data/database";
-
 export default class NewPresenter {
   #view;
   #model;

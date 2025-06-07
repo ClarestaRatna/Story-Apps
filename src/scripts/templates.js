@@ -47,14 +47,6 @@ export function generateAuthenticatedNavigationListTemplate() {
   `;
 }
 
-// export function generateStoriesListEmptyTemplate() {
-//   return `
-//     <div id="reports-list-empty" class="reports-list__empty">
-//       <h2>Tidak ada laporan yang tersedia</h2>
-//       <p>Saat ini, tidak ada laporan kerusakan fasilitas umum yang dapat ditampilkan.</p>
-//     </div>
-//   `;
-// }
 export function generateStoriesListEmptyTemplate(title, text) {
   return `
     <div class="stories-list__empty d-flex flex-column align-items-center gap-3" id="stories-list-empty">
@@ -66,15 +58,6 @@ export function generateStoriesListEmptyTemplate(title, text) {
     </div>
   `;
 }
-
-// export function generateStoriesListErrorTemplate(message) {
-//   return `
-//     <div id="reports-list-error" class="reports-list__error">
-//       <h2>Terjadi kesalahan pengambilan daftar laporan</h2>
-//       <p>${message ? message : "Gunakan jaringan lain atau laporkan error ini."}</p>
-//     </div>
-//   `;
-// }
 
 export function generateStoriesListErrorTemplate(message, text) {
   console.error(message);
